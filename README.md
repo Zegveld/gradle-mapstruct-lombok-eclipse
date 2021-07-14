@@ -1,3 +1,5 @@
+If you use this project then step 2 is already done.
+
 ### Getting Lombok and Mapstruct to work in eclipse
 
 1. You need to install lombok into eclipse, see https://projectlombok.org/setup/eclipse
@@ -7,6 +9,7 @@
 5. refresh the gradle configuration (right-click --> Gradle --> Refresh Gradle Project)
 6. check if the annotation-processing is enabled: right-click the project --> Properties --> java compiler --> annotation processing. Ff not enabled then enable it.
 7. clean the project and it should do the trick.
+8. run the test in the project and it should pass.
 
 #### Setting up your gradle build to allow additional configuration magic to happen
 ```
