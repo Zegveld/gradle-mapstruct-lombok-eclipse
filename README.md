@@ -7,7 +7,7 @@ If you use this project then step 2 is already done.
 3. launch eclipse and open the project using the existing gradle project configuration.
 4. have the apt-eclipse plugin generate the annotation configuration: run `gradle eclipseJdtApt eclipseFactorypath eclipseJdt` in the terminal.
 5. refresh the gradle configuration (right-click --> Gradle --> Refresh Gradle Project)
-6. check if the annotation-processing is enabled: right-click the project --> Properties --> java compiler --> annotation processing. Ff not enabled then enable it.
+6. check if the annotation-processing is enabled: right-click the project --> Properties --> java compiler --> annotation processing. If not enabled then enable it.
 7. clean the project and it should do the trick.
 8. run the test in the project and it should pass.
 
